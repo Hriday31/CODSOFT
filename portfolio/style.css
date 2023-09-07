@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif !important;
+}
+html::-webkit-scrollbar {
+  width: 0 !important;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(./images/background.png);
+  background-size: cover;
+  overflow-x: hidden;
+}
+row {
+  width: 100%;
+}
+.nav {
+  margin: 10px;
+  min-height: 80px;
+  padding: 10px;
+  width: auto;
+}
+.nav a,
+a:hover {
+  text-decoration: none;
+  color: #ffc011 ;
+}
+i{
+  color: white;
+}
+#main {
+  margin-top: 8em;
+  width: auto;
+  border-radius: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 20px;
+}
+.fhw {
+  min-height: 100%;
+  min-width: 100%;
+}
+.cen {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  margin-top: 20px;
+  height: 40px;
+  width: auto;
+}
+.progress{
+  background-color: transparent;
+  margin: 20px;
+  height: 30px;
+  border: 1px solid white;
+}
+.skill{
+  margin: 14px;
+  padding: 10px;
+  width: auto;
+  margin-top: 20px;
+  font-size: 70px;
+}
+#contactme{
+  margin: 2px;
+  padding: 10px;
+  width: auto;
+  margin-top: 1em;
+  font-size: 60px;
+}
+#projects{
+  margin: 14px;
+  padding: 10px;
+  width: auto;
+  margin-top: 1em;
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+}
+.card{
+  background-color: #ffc011;
+  font-weight: bold;
+  width: auto;
+  height: 650px;
+}
+/* style="width: 18rem;" */
