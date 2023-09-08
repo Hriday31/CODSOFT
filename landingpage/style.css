@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  /* font-family: 'Source Code Pro', monospace !important; */
+  font-family: 'Chakra Petch', sans-serif !important;
 }
 html::-webkit-scrollbar {
   width: 0 !important;
@@ -9,18 +9,23 @@ html::-webkit-scrollbar {
 body {
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
-  /* overflow-x: hidden; */
-}
-.background {
   width: 100%;
-  height: 125vh;
+  /* height: 1vh; */
   background-image: url(./images/background.png);
   background-size: cover;
   opacity: 1;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+.background {
+  width: 100%;
 }
 img {
   box-shadow: -10px -10px rgba(129, 62, 81, 0.9);
   color: rgb(129, 62, 81);
+}
+
+footer {
+  margin-top: 75vh;
+  height: 40px;
+  width: auto;
 }
