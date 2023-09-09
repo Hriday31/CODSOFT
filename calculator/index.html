@@ -14,31 +14,136 @@
 </head>
 
 <body>
-    <div class="container-fluid col-md-8 calc">
+    <div class="container-fluid col-md-8 calc fs-1 text-white text-center" style="border: 20px solid #373960;">
         <div class="row">
-            <div class="col-md-4 text-center leftpart fs-2 text-white">
-                <div class="row">
-                    <div class="col"> Calculator</div>
+            <div class="col-md-3 text-center leftpart fs-2 text-white">
+                <div class="row" style="height: 100px">
+                    <div class="col fw-bold" style="font-size: 40px; padding: 20px;"> Calculator</div>
                 </div>
-                <div class="row ">
-                    <div class="col-md-2 offset-md-3 mx- button1">
+                <div class="row">
+                    <div class="col-md-4 offset-md-2 button1" style="margin-right: 2%;background-color: black;">
                         <i class="bi bi-123"></i>
                     </div>
-                    <div class="col-md-2 offset-md-1 g-0 button1">
+                    <div class="col-md-4 button1">
                         <i class="bi bi-bar-chart-fill"></i>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-8">
-                <div class="row ">
-                    <div class="col-md-6 offset-md-6">
-                        <div class="input-group mb-3">
-                            <span class="input-group-text">$</span>
-                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                            <span class="input-group-text">.00</span>
-                        </div>
+                <div class="row my-3">
+                    <div class="col-md-4 offset-md-2 button1" style="margin-right: 2%;">
+                        <i class="bi bi-currency-dollar"></i>
+                    </div>
+                    <div class="col-md-4 button1">
+                        <i class="bi bi-house"></i>
                     </div>
                 </div>
+                <div class="row my-3">
+                    <div class="col-md-4 offset-md-2 button1" style="margin-right: 2%;">
+                        <i class="bi bi-thermometer"></i>
+                    </div>
+                    <div class="col-md-4 button1">
+                        <i class="bi bi-activity"></i>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-md-4 offset-md-2 button1" style="margin-right: 2%;">
+                        <i class="bi bi-stopwatch"></i>
+                    </div>
+                    <div class="col-md-4 button1">
+                        <i class="bi bi-database"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 rightpart">
+                <div class="row" style="height: 100px;padding: 10px 4% 10px 10px;">
+                    <div class="col-md-9 offset-md-2 " style="padding: 0;">
+                        <input type="text" class="button3 text-end fhw" name="display" id="display" style="padding-right: 20px;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 offset-md-2" style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="AC" onclick="display.value =' ' ">
+                    </div>
+                    <div class="col-md-2 mx-3" style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="DE" onclick="display.value =display.value.toString().slice(0,-1) ">
+
+                    </div>
+                    <div class="col-md-2 " style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="."onclick="display.value +='.' ">
+
+                    </div>
+                    <div class="col-md-2 mx-3" style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="/" onclick="display.value +='/' ">
+
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-md-2 offset-md-2 " style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="9" onclick="display.value +='9' ">
+
+                    </div>
+                    <div class="col-md-2 mx-3" style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="8" onclick="display.value +='8' ">
+
+                    </div>
+                    <div class="col-md-2 " style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="7" onclick="display.value +='7' ">
+
+                    </div>
+                    <div class="col-md-2 mx-3" style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="*"onclick="display.value +='*' ">
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-md-2 offset-md-2 " style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="6" onclick="display.value +='6' ">
+
+                    </div>
+                    <div class="col-md-2 mx-3" style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="5" onclick="display.value +='5' ">
+
+                    </div>
+                    <div class="col-md-2 " style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="4" onclick="display.value +='4' ">
+
+                    </div>
+                    <div class="col-md-2 mx-3" style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="+" onclick="display.value +='+' ">
+
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-md-2 offset-md-2" style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="3" onclick="display.value +='3' ">
+
+                    </div>
+                    <div class="col-md-2 mx-3" style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="2" onclick="display.value +='2' ">
+
+                    </div>
+                    <div class="col-md-2" style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="1" onclick="display.value +='1' ">
+
+                    </div>
+                    <div class="col-md-2 mx-3" style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="-"onclick="display.value +='-' ">
+
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="col-md-2 offset-md-2 " style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="00" onclick="display.value +='00'" >
+
+                    </div>
+                    <div class="col-md-2 mx-3" style="padding: 0;">
+                        <input type="button" class="button2 fhw" value="0" onclick="display.value +='0'" >
+
+                    </div>
+                    <div class="col-md-4 mx-1" style="padding: 0px;">
+                        <input type="button" class="button2 fhw" value="=" onclick="display.value =eval(display.value)">
+
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
