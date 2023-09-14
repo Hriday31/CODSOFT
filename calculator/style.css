@@ -1,67 +1,78 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Chakra Petch', sans-serif !important;
-  }
-  html::-webkit-scrollbar {
-    width: 0 !important;
-  }
-  body {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    background-image: url(./images/background.png);
-    background-size: cover;
-    opacity: 1;
-    overflow-x: hidden;
-    justify-content: center;
-    align-content: center;
-  }
-  .background {
-    width: 100%;
-  }
-  .calc{
-    border: 2px solid black;
-  }
-  .cen
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-  }
-  .leftpart{
-    background-color:#4e55a3;
-  }
-  .rightpart{
-    background-color:#373960 ;
-  }
-  .button1,.button2{
-    border:1px solid black;
-    min-height: 10vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    box-shadow: 5px 5px 15px black inset ;
-    border-radius: 10px;
-    background-color: transparent;
-    color: aliceblue;
-  }
-  .button3{
-    border: 1px solid black;
-    box-shadow: 5px 5px 15px black inset ;
-    border-radius: 20px ;
-    background-color: #212138;
-    color: white;
-  }
-  .button2:hover{
-    background-color: black;
-  }
-  .fhw{
-    height:100%;
-    width: 100%;
-  }
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Chakra Petch', sans-serif !important;
+}
+
+html::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/background.png);
+  background-size: cover;
+  opacity: 1;
+  overflow-x: hidden;
+  justify-content: center;
+  align-content: center;
+}
+
+.background {
+  width: 100%;
+}
+
+.calc {
+  border: 2px solid black;
+}
+
+.cen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.leftpart {
+  background-color: #4e55a3;
+}
+
+.rightpart {
+  background-color: #373960;
+}
+
+.button1,
+.button2 {
+  border: 1px solid black;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px 15px black inset;
+  border-radius: 10px;
+  background-color: transparent;
+  color: aliceblue;
+}
+
+.button3 {
+  border: 1px solid black;
+  box-shadow: 5px 5px 15px black inset;
+  border-radius: 20px;
+  background-color: #212138;
+  color: white;
+}
+
+.button2:hover {
+  background-color: black;
+}
+
+.fhw {
+  height: 100%;
+  width: 100%;
+}
